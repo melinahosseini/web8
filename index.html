@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      .articles {
+        display: flex;
+        margin: 40px;
+        justify-content: space-around;
+      }
+      .article {
+        width: 25%;
+        border: 2px solid pink;
+        border-radius: 5px;
+      }
+      .article img {
+        width: 100%;
+      }
+      .article .body {
+        padding: 10px;
+      }
+      .article p {
+        margin-top: 10px;
+      }
+      .article .btn {
+        text-align: center;
+        text-decoration: dotted;
+        background-color: rgb(102, 26, 139);
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+        width: 50%;
+        display: block;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        transition: 0.5s;
+        &:hover {
+background-color:rgb(181, 29, 186) ;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="articles">
+      <div class="article">
+        <img src="assests/img/1.jpg" alt="" />
+        <div class="body">
+          <h1>Lorem, ipsum dolor.</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Exercitationem, voluptatem.
+          </p>
+          <a href="#" class="btn">read more</a>
+        </div>
+      </div>
+      <div class="article">
+        <img src="assests/img/1.jpg" alt="" />
+        <div class="body">
+          <h1>Lorem, ipsum dolor.</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Exercitationem, voluptatem.
+          </p>
+          <a href="#" class="btn">read more</a>
+        </div>
+      </div>
+      <div class="article">
+        <img src="assests/img/1.jpg" alt="" />
+        <div class="body">
+          <h1>Lorem, ipsum dolor.</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Exercitationem, voluptatem.
+          </p>
+          <a class="btn" href="#">read more</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
